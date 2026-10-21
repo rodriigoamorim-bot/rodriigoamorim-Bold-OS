@@ -2,35 +2,34 @@
 
 Atualizado em 21/10/2026.
 
-## Estado verificável
+## Decisão vigente
 
-- Documentação de produto, arquitetura, testes, backlog e direção visual presente.
-- Aplicação, dependências, bancos e testes ainda não implementados.
-- B00 em andamento: roteiro preparado, validação operacional pendente.
-- B01 e demais histórias não iniciadas; G0 e G1 não atingidos.
-- Repositório indicado pelo usuário: rodriigoamorim-Bold/OS.
+Supabase gerenciado escolhido pelo usuário; Dell apenas como cliente. React,
+TypeScript e Vite. ADR 006 prevalece sobre a proposta local-cloud anterior.
+Sem projeto Supabase provisionado, contratação, publicação ou dados reais.
+Offline definitivo e responsável pelo piloto ainda pendentes.
 
-## Próxima entrega
+## Entrega local
 
-Concluir as decisões bloqueadoras de B00 em DISCOVERY.md e preparar a primeira
-fatia de B01: persistir comando, recibo e outbox atomicamente em SQLite, reiniciar
-e verificar persistência com dados sintéticos. Isso será apenas parte de B01;
-HTTPS/LAN, identidade offline, PostgreSQL, reenvio e restore seguem necessários.
+Fundação parcial B02/UI01: navegação, lista fictícia de Assistidos, busca e resumo;
+cliente Supabase opcional e formulário de teste de autenticação. Não há persistência
+de domínio, tabelas ou RLS. Nenhum módulo operacional está pronto. G0/G1 pendentes.
+
+## Verificação executada
+
+Teste de busca falhou antes da implementação (módulo ausente) e passou depois.
+TypeScript sem erros; build Vite concluído. Dependências e pnpm-lock.yaml gerados.
+Instalador reportou script esbuild ignorado; build direto passou sem habilitá-lo.
+Não houve ensaio visual, autenticação remota, banco ou teste de autorização real.
+
+## Próxima fatia
+
+Conectar projeto Supabase de desenvolvimento, criar migração de identidade e
+atribuições com RLS, verificar acesso negado por padrão e por unidade. Definir
+comportamento offline antes de fechar B01 revisado. Ver ADR 006 e DISCOVERY.md.
+GitHub origin configurado; acesso remoto/push ainda bloqueado por autenticação.
 
 ## Retomada econômica
 
-1. Ler este arquivo e verificar git status/diff.
-2. Escolher uma única fatia e ler apenas suas seções em SPEC, SDD, TDD e BACKLOG.
-3. Registrar testes realmente executados e limitações; atualizar este estado.
-4. Fazer commit pequeno por entrega verificada. Não reler conversas inteiras.
-
-## Decisões preservadas
-
-TypeScript/React/Vite/Fastify e SQLite/PostgreSQL são propostas sujeitas ao spike.
-Offline do MVP pressupõe servidor e LAN ativos. Um escritor por unidade.
-Sem dados pessoais reais no desenvolvimento. A interface segue UI-DESIGN.md.
-
-## Verificações desta preparação
-
-Inspeção local confirmou somente docs e Git sem commits no início da sessão.
-Revisão documental; nenhuma suíte de software disponível para executar.
+Ler este arquivo, git status/diff e apenas os requisitos da próxima fatia. Uma
+entrega por vez; registrar evidências e limitações; commit por entrega verificada.

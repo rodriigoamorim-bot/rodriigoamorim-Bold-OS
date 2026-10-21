@@ -1,5 +1,7 @@
 # BACKLOG — Execução em vibecoding
 
+> Atualização de 21/10/2026: Supabase gerenciado aprovado; servidor local rejeitado. [ADR 006](adr/006-supabase.md) prevalece sobre a proposta local/offline abaixo. As seções anteriores são histórico pendente de revisão detalhada; não comprovam implementação.
+
 Versão 0.1 · 20/10/2026 · Backlog proposto, sem histórias implementadas. Preparação de B00 iniciada em 21/10/2026; ver DISCOVERY.md e STATUS.md.
 
 ## 1. Priorização e capacidade

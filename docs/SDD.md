@@ -1,5 +1,7 @@
 # SDD — System Design Document
 
+> Atualização de 21/10/2026: Supabase gerenciado aprovado; servidor local rejeitado. [ADR 006](adr/006-supabase.md) prevalece sobre a proposta local/offline abaixo. As seções anteriores são histórico pendente de revisão detalhada; não comprovam implementação.
+
 Versão 0.1 · 20/10/2026 · Decisões propostas, sujeitas à prova técnica B01.
 
 ## 1. Arquitetura escolhida para o piloto

@@ -1,5 +1,7 @@
 # SPEC — Especificação do produto
 
+> Atualização de 21/10/2026: Supabase gerenciado aprovado; servidor local rejeitado. [ADR 006](adr/006-supabase.md) prevalece sobre a proposta local/offline abaixo. As seções anteriores são histórico pendente de revisão detalhada; não comprovam implementação.
+
 Versão 0.1 · 20/10/2026 · Produto: BOLD OS / Bread of Life Desk.
 
 ## 1. Resultado esperado

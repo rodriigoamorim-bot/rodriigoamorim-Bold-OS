@@ -1,5 +1,7 @@
 # TDD — Desenvolvimento orientado a testes
 
+> Atualização de 21/10/2026: Supabase gerenciado aprovado; servidor local rejeitado. [ADR 006](adr/006-supabase.md) prevalece sobre a proposta local/offline abaixo. As seções anteriores são histórico pendente de revisão detalhada; não comprovam implementação.
+
 Versão 0.1 · 20/10/2026. Este documento é o plano de verificação; nenhum teste foi implementado ou executado ainda.
 
 ## 1. Ciclo por história
