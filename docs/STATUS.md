@@ -27,7 +27,8 @@ Não houve ensaio visual, autenticação remota, banco ou teste de autorização
 Conectar projeto Supabase de desenvolvimento, criar migração de identidade e
 atribuições com RLS, verificar acesso negado por padrão e por unidade. Definir
 comportamento offline antes de fechar B01 revisado. Ver ADR 006 e DISCOVERY.md.
-GitHub origin configurado; acesso remoto/push ainda bloqueado por autenticação.
+GitHub autenticado como rodriigoamorim-bot; origin corrigido para o repositório
+rodriigoamorim-bot/rodriigoamorim-Bold-OS. Remoto vazio verificado antes do primeiro envio.
 
 ## Retomada econômica
 

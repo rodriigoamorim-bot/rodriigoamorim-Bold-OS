@@ -12,7 +12,7 @@ Fundação React/TypeScript com demonstração local; módulos operacionais aind
 - [Backlog](docs/BACKLOG.md)
 - [Direção visual](docs/UI-DESIGN.md)
 
-Repositório indicado: https://github.com/rodriigoamorim-Bold/OS
+Repositório indicado: https://github.com/rodriigoamorim-bot/rodriigoamorim-Bold-OS
 
 Desenvolvimento utiliza apenas dados sintéticos. Publicação, contratação e uso de
 dados reais dependem das validações previstas nos documentos.
