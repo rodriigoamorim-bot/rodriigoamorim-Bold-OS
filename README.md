@@ -36,3 +36,7 @@ conta de teste previamente criada no Supabase. A chave secreta/service_role nunc
 vai no frontend. O login apenas testa Auth; os registros continuam demonstrativos.
 
 A decisão vigente está em [ADR 006](docs/adr/006-supabase.md).
+
+## Conectar Supabase
+
+Seguir [SUPABASE-SETUP.md](docs/SUPABASE-SETUP.md) para criar projeto gratuito de desenvolvimento, aplicar a migração e verificar as permissões. Testes locais incluem PostgreSQL embarcado; validação remota ainda pendente.

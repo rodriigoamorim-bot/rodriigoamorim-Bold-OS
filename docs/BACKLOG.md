@@ -66,7 +66,7 @@ Cada item abaixo é uma entrega de resultado. Antes de código, desdobrar a entr
 
 ### B03 — Identidade e limites de acesso
 
-- **Status:** não iniciado. **Prioridade:** P0. **Dependências:** B02. **Porte:** L.
+- **Status:** em andamento, escopo adaptado pelo ADR 006. Migração de identidade/RLS testada localmente; validação remota e permissões PRI pendentes. Ver SUPABASE-SETUP.md. **Prioridade:** P0. **Dependências:** B02. **Porte:** L.
 - **Rastreabilidade:** RF01; T01, T18–19, T24.
 - **Resultado:** Papéis, atribuições, escopo da unidade, provisionamento local e auditoria.
 - **Aceite:** Negação por API/busca/exportação; administrador técnico sem leitura automática de PRI.

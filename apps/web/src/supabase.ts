@@ -2,4 +2,4 @@ import { createClient } from '@supabase/supabase-js';
 const url = import.meta.env.VITE_SUPABASE_URL;
 const key = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
 // Nenhum cliente ou pedido remoto é criado sem configuração explícita.
-export const supabase = url && key ? createClient(url, key) : null;
+export const supabase = url && key ? createClient(url, key, { auth: { persistSession: false, detectSessionInUrl: false } }) : null;

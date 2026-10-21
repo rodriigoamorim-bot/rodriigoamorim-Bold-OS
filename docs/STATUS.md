@@ -11,24 +11,29 @@ Offline definitivo e responsável pelo piloto ainda pendentes.
 
 ## Entrega local
 
-Fundação parcial B02/UI01: navegação, lista fictícia de Assistidos, busca e resumo;
-cliente Supabase opcional e formulário de teste de autenticação. Não há persistência
-de domínio, tabelas ou RLS. Nenhum módulo operacional está pronto. G0/G1 pendentes.
+Fundação parcial B02/UI01: navegação, lista fictícia de Assistidos, busca e resumo.
+B03 parcial: migração PostgreSQL para organizações, unidades e atribuições, RLS
+somente de leitura para unidades atribuídas; nenhuma escrita administrativa pelo
+cliente. Login/sair e consulta de unidades preparados; sessão só em memória.
+Nenhum módulo operacional ou PRI real pronto. G0/G1 pendentes.
 
 ## Verificação executada
 
-Teste de busca falhou antes da implementação (módulo ausente) e passou depois.
-TypeScript sem erros; build Vite concluído. Dependências e pnpm-lock.yaml gerados.
-Instalador reportou script esbuild ignorado; build direto passou sem habilitá-lo.
-Não houve ensaio visual, autenticação remota, banco ou teste de autorização real.
+Teste de busca e teste PostgreSQL PGlite passaram; TypeScript e build passaram.
+Teste de banco RED por migração ausente, GREEN após implementação. Verifica escopo,
+revogação, FK e negativas de leitura/escrita com papéis não privilegiados.
+PGlite é dependência de teste; contrato Auth mínimo não valida JWT/REST Supabase.
+Não houve ensaio visual, autenticação remota ou teste no projeto Supabase real.
 
 ## Próxima fatia
 
-Conectar projeto Supabase de desenvolvimento, criar migração de identidade e
-atribuições com RLS, verificar acesso negado por padrão e por unidade. Definir
-comportamento offline antes de fechar B01 revisado. Ver ADR 006 e DISCOVERY.md.
-GitHub autenticado como rodriigoamorim-bot; origin corrigido para o repositório
-rodriigoamorim-bot/rodriigoamorim-Bold-OS. Remoto vazio verificado antes do primeiro envio.
+Usuário informou que ainda não tem projeto Supabase. Criar projeto Free de
+DESENVOLVIMENTO na conta dele, aplicar migração e verificar Auth/RLS pelo REST.
+Roteiro: SUPABASE-SETUP.md. Não solicitar senha nem chave secreta em chat.
+Após aceite de identidade, iniciar doação/triagem com testes transacionais.
+Definir comportamento offline antes de fechar B01 revisado. Ver ADR 006.
+GitHub autenticado como rodriigoamorim-bot; origin correto:
+rodriigoamorim-bot/rodriigoamorim-Bold-OS.
 
 ## Retomada econômica
 
